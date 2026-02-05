@@ -111,19 +111,23 @@ Once added:
 - Phone number must be exactly 10 digits 
 - Inline error messages are shown for invalid inputs
 
+---
+
 ## Git Usage
 
 - Meaningful and incremental commit messages are used
 - Commit history reflects the development flow
 - Code is organized into clear folders:
 ```
-components
-pages
-api
-utils
-types
+- components
+- pages
+- api
+- utils
+- types
 ```
 - Follows standard Git and React project structure
+
+---
 
 ## Deployment
 
@@ -135,6 +139,7 @@ types
 Deployed URL:
 (https://react-user-management-vert.vercel.app/)
 
+---
 
 ## Assumptions & Design Decisions
 
@@ -144,6 +149,7 @@ Deployed URL:
 - Kept validation logic simple and readable without heavy form libraries
 - Used Material UI to avoid custom CSS and maintain consistency
 
+---
 
 ## Notes
 
