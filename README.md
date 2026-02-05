@@ -95,7 +95,46 @@ Example:
   required: false
 }
 ```
+
+Once added:
+
+- The field appears automatically in Add and Edit forms
+- The field also appears in the Users list table
+- No UI or API logic changes are required
+
 ---
+
+## Validation Rules
+
+- All required fields are enforced
+- Email input is validated for correct format
+- Phone number must be exactly 10 digits 
+- Inline error messages are shown for invalid inputs
+
+## Git Usage
+
+- Meaningful and incremental commit messages are used
+- Commit history reflects the development flow
+- Code is organized into clear folders:
+```
+components
+pages
+api
+utils
+types
+```
+- Follows standard Git and React project structure
+
+## Deployment
+
+- The application is deployed using Vercel.
+- The deployed app demonstrates the UI, layout, and user flow
+- Since the backend API is a local mock (json-server), CRUD operations are best verified in the local setup
+- For full functionality, please run the application locally using the steps above
+
+Deployed URL:
+(https://react-user-management-vert.vercel.app/)
+
 
 ## Assumptions & Design Decisions
 
@@ -104,3 +143,10 @@ Example:
 - Chose a configuration-driven architecture to support easy extensibility
 - Kept validation logic simple and readable without heavy form libraries
 - Used Material UI to avoid custom CSS and maintain consistency
+
+
+## Notes
+
+- The deployed application does not persist or modify data due to the absence of a production backend API
+- Full CRUD functionality can be verified by running the project locally
+- The mock API can be replaced easily with a real backend by updating the API base URL
