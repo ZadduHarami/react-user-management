@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "fc4f",
+      "firstName": "Shaik",
+      "lastName": "Saddu",
+      "phone": "1234567890",
+      "email": "test@gmail.com"
+    },
+    {
+      "id": "c647",
+      "firstName": "Shaik",
+      "lastName": "Sadath",
+      "phone": "12345678901",
+      "email": "test@gmail.com"
+    },
+    {
+      "id": "1c20",
+      "firstName": "Samantha",
+      "lastName": "SHaik",
+      "phone": "12345678919",
+      "email": "nussu@gmail.com"
+    },
+    {
+      "id": "97e6",
+      "phone": "1223242452552525525",
+      "firstName": "Shaik",
+      "lastName": "Sadath",
+      "email": "test@gmail.com"
+    },
+    {
+      "id": "5ae7",
+      "firstName": "Shaik",
+      "lastName": "Sadath",
+      "phone": "7708888221",
+      "email": "test@gmail.com"
+    }
+  ]
+}
